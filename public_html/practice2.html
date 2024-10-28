@@ -1,0 +1,34 @@
+<html>
+<head>
+	<h1> Practice Two </h1>
+</head>
+
+<style>
+	#paragraph {
+		border-width: 20px;
+		border-style: solid;
+	}
+</style>
+<body>
+	<div>
+	<p id="paragraph">Text to be changed.</p>
+	</div>
+
+	<div>
+	
+	<script type="text/javascript" src="textMods.js"></script>
+	<br>Text Modification<br>
+	Text R Value(0-255):<input type="number" id="textR" min="0" max="255" value=""><br>
+        Text G Value(0-255):<input type="number" id="textG" min="0" max="255" value=""><br>
+        Text B Value(0-255):<input type="number" id="textB" min="0" max="255" value=""><br>
+	
+	<br>Border Modification<br>
+        Border Width: <input type="number" id="borderWidth" min="0"  value=""><br>
+        Border R Value(0-255)<input type="number" id="borderR" min="0" max="255" value=""><br>
+        Border G Value(0-255)<input type="number" id="borderG" min="0" max="255" value=""><br>
+        Border B Value(0-255)<input type="number" id="borderB" min="0" max="255" value=""><br>
+	<button onclick="applyStyles()"> Change Style</button>
+	</div>
+</body>
+
+</html>
